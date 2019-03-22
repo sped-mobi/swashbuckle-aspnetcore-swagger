@@ -16,7 +16,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{17B2083B
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{83EA8A76-0CD2-445C-9EE0-0F3D3A87DC94}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SwaggerExtensions", "src\Swashbuckle.AspNetCore.Swagger.Extensions\src\SwaggerExtensions.csproj", "{DD780BE4-006D-4EC2-A03D-1D058B0F0A81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swashbuckle.AspNetCore.Swagger.Extensions", "src\Swashbuckle.AspNetCore.Swagger.Extensions\Swashbuckle.AspNetCore.Swagger.Extensions.csproj", "{262DC06B-19A7-41D2-8F2A-3226B7E19755}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,10 +28,10 @@ Global
 		{48BA2A3D-8105-4A7C-88B6-A4EE65F7BA18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48BA2A3D-8105-4A7C-88B6-A4EE65F7BA18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48BA2A3D-8105-4A7C-88B6-A4EE65F7BA18}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD780BE4-006D-4EC2-A03D-1D058B0F0A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD780BE4-006D-4EC2-A03D-1D058B0F0A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD780BE4-006D-4EC2-A03D-1D058B0F0A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD780BE4-006D-4EC2-A03D-1D058B0F0A81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{262DC06B-19A7-41D2-8F2A-3226B7E19755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262DC06B-19A7-41D2-8F2A-3226B7E19755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262DC06B-19A7-41D2-8F2A-3226B7E19755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262DC06B-19A7-41D2-8F2A-3226B7E19755}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

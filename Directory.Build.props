@@ -1,8 +1,8 @@
 <Project>
   <PropertyGroup>
     <DotNetBuildFromSource>true</DotNetBuildFromSource>
-    <DotNetFinalVersionKind>release</DotNetFinalVersionKind>   
-    <!--<GeneratePackageOnBuild>true</GeneratePackageOnBuild>-->
+    <DotNetFinalVersionKind>release</DotNetFinalVersionKind>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 
@@ -21,8 +21,8 @@
 
     <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
     
-    <!--<DebugType>full</DebugType>
-    <DebugSymbols>true</DebugSymbols>-->
+    <!--<DebugType>full</DebugType>-->
+    <DebugSymbols>true</DebugSymbols>
     <LangVersion>Latest</LangVersion>
 
   </PropertyGroup>

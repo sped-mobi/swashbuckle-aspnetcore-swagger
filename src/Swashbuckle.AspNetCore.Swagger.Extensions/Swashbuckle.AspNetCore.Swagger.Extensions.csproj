@@ -1,7 +1,5 @@
 ﻿<Project>
   <PropertyGroup>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageId>Swashbuckle.AspNetCore.Swagger.Extensions</PackageId>
     <Description>Extensions for Swashbuckle.AspNetCore.Swagger</Description>
     <PackageTags>Swashbuckle, OpenApi, Swagger, AspNetCore</PackageTags>
     <PackageDescription>$(Description)</PackageDescription>
@@ -14,7 +12,6 @@
 
   <PropertyGroup>
     <IsPackable>true</IsPackable>
-    <AssemblyName>$(PackageId)</AssemblyName>
     <TargetFrameworks>netcoreapp2.2</TargetFrameworks>
   </PropertyGroup>
 
@@ -24,10 +21,6 @@
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.0.0-beta" />
     <PackageReference Include="Microsoft.OpenApi" Version="1.1.2" />
   </ItemGroup>
-
-
-
-
 
 
 </Project>
