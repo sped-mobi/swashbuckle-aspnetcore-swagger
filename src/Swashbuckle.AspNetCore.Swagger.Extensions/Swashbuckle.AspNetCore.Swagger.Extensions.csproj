@@ -1,0 +1,35 @@
+﻿<Project>
+
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageDescription>Extensions for Swashbuckle.AspNetCore.Swagger</PackageDescription>
+    <PackageReleaseNotes>$(PackageDescription)</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/sped-mobi/swashbuckle-swagger-extensions.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/sped-mobi/swashbuckle-swagger-extensions/tree/master</PackageProjectUrl>
+    <PackageLicenseUrl>http://sped.mobi/license.html</PackageLicenseUrl>
+    <PackageIconUrl>http://sped.mobi/icons/microsoft.ico</PackageIconUrl>
+    <PackageTags>Swashbuckle, OpenApi, Swagger, AspNetCore</PackageTags>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+
+
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <IsPackable>false</IsPackable>    
+  </PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-beta" />
+    <PackageReference Include="Swashbuckle.AspNetCore.ReDoc" Version="5.0.0-beta" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="5.0.0-beta" />
+    <PackageReference Include="Microsoft.OpenApi" Version="1.1.2" />
+  </ItemGroup>
+
+  <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+</Project>
